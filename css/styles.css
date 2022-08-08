@@ -78,7 +78,19 @@ hr{
 
 }
 #password{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+#Repeat-password{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    font-size: large;
+    border-radius: 8px;
+    background-color: #eee;
+    margin-bottom: 30px;
 }
 
 .submit-container{
@@ -126,6 +138,13 @@ hr{
     font-size: 24px;
 
 }
+.sign-up-with{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+
+}
 
 
 #submit:hover{
@@ -142,3 +161,14 @@ hr{
 .sign-in.orange.active{
     border-bottom: 3px solid orange;
 }
+.sign-up.orange.active{
+    border-bottom: 3px solid orange;
+
+}
+
+
+
+
+
+
+
