@@ -3,16 +3,19 @@
     margin: 0;
     font-family: "Roboto";
     font-weight: 400;
+    box-sizing: border-box;
+    
 
 }
+
 body{
-    background-image: url("../img/cool-background.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100% 100% ;
-    min-height: 100vh;
-    display: grid;
-    scrollbar-width: none;
+       display: grid;
     -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 100vh;
+    
+   
+    
 }
 .content{
     width: 601px;
@@ -21,10 +24,10 @@ body{
     box-sizing: border-box;
     border: 1px solid blue;
     box-shadow: 0px 8px 24px gray;
-    border-radius: 8px;
+    border-radius: 22px;
     margin: auto;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    transform: scale(72%) 
+    
     
 }
 
@@ -203,7 +206,15 @@ hr{
 body::-webkit-scrollbar {
     display: none; 
   }
-
+  #bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+  
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+  }
 
 
 
