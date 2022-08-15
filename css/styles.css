@@ -8,7 +8,7 @@
 body{
     background-image: url("../img/cool-background.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100% 100% ;
     min-height: 100vh;
     display: grid;
     scrollbar-width: none;
@@ -24,6 +24,7 @@ body{
     border-radius: 8px;
     margin: auto;
     margin-bottom: 100px;
+    margin-top: 100px;
     
 }
 
