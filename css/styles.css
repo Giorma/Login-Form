@@ -18,6 +18,7 @@ body{
     
 }
 .content{
+    background-color: white;
     width: 601px;
     opacity: 90%;
     padding: 40px;
